@@ -1,12 +1,15 @@
 # pokemon-app
 
-I have created a Pokemon listing page where we can see the list of pokemons on load.
+I have created a Pokemon listing page where we can see the list of pokemons on load which is being fetched from the below API.
+https://pokeapi.co/api/v2/pokemon?limit=20&offset=0
 
-Also added a search feature that checks within name and abilities and returns the matched pokemons.
+Functionalities included: 
+ - search feature that checks within name and abilities of each pokemon and returns the matched pokemons.
+ - sort functionality with name, weight and height values.
+ - pagination to change the no. of cards per page.
+ - keyboard accessible functionalities
 
-Along with that also included the sort functionality with name, weight and height.
-
-Have used SCSS for styling purposes.
+I have used SCSS for styling purposes in this application.
 
 Desktop view:
 ![image](https://user-images.githubusercontent.com/31380688/168744300-86a45244-f559-455d-8612-240f2e321824.png)
